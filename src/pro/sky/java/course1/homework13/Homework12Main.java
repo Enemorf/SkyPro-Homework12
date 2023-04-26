@@ -1,4 +1,4 @@
-package pro.sky.java.course1.homework12;
+package pro.sky.java.course1.homework13;
 
 public class Homework12Main
 {
@@ -19,9 +19,6 @@ public class Homework12Main
 
     public static void printBook(Book book)
     {
-        System.out.println("Название книги: "+ book.getBookName());
-        System.out.println("Автор книги: "+ book.getAuthor().getName() + " " + book.getAuthor().getLastName());
-        System.out.println("Год выпуска книги: "+ book.getPublicYear());
-        System.out.println("---\n");
+        System.out.println(book.toString());
     }
 }
